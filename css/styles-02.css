@@ -1,0 +1,168 @@
+/* reset css */
+*, button {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-transform: uppercase;
+    max-width: 100%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+/* Webfont: Thunder-LightLC */@font-face {
+    font-family: 'ThunderLight';
+    src: url('Thunder-LightLC.woff2') format('woff2'), /* Modern Browsers */
+         url('Thunder-LightLC.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Thunder-MediumLC */@font-face {
+    font-family: 'ThunderMed';
+    src: url('Thunder-MediumLC.woff2') format('woff2'), /* Modern Browsers */
+         url('Thunder-MediumLC.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Global */
+body, button {
+    background-color: black;
+    font-family: ThunderMed ;
+    font-weight: 500;
+    margin: auto;
+    padding: 1rem 2rem;
+}
+hr {
+    height: 5px;
+    background-color: white;
+}
+
+/* Desktop */
+
+@media screen and (max-width:2920px) {
+    body {
+        background-color: blueviolet;
+    }
+    main section {
+        display: grid;
+        grid-gap: 10px;
+    }
+
+    .title {
+        grid-column: 1 / span 2;
+    }
+
+    .other {
+        grid-column: 1 / span 2;
+    }
+
+    .other div a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }    
+
+    .info {
+        display: grid;
+        align-items: stretch;
+        align-content: space-between;
+        justify-content: start;
+    }
+
+    .gallery figure {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+
+/* Mobile <550px */
+
+@media screen and (max-width:550px) {
+    main section {
+        display: flex;
+        grid-gap: 8px;
+        grid-row-gap: 32px;
+        align-content: stretch;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .title h1 {
+        font-size: 100px;
+        font-weight: 500;
+    }
+    .gallery figure {
+        display: block;
+    }
+    .gallery figure img {
+        width: 500px;
+    }
+    .info, .other {
+        display: block;
+        align-items: stretch;
+        align-content: space-between;
+        justify-content: start;
+        font-size: 50px ;
+    }
+    button { 
+        width: 100%;
+        height: 100px;
+        background-color: #ffffff;
+        margin-top: 30px;
+        display: block;
+    }
+    button a {
+        color: #000000;
+        font-size: 50px;
+    }
+    .img-mobile {
+        display: none;
+    }
+    .other, .other-info, .gallery figure img {
+        margin: 30px 0px;
+    }
+}
+
+
+
+@media screen and (max-width:375px) {
+    .title h1 {
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .info, .other {
+        font-size: 30px ;
+    }
+    button a {
+        font-size: 30px;
+    }
+    .other, .other-info, .gallery figure img {
+        margin: 10px 0px;
+    }
+    main section {
+        grid-row-gap: 16px;
+    }
+}
+/*
+.gallery {
+    background-color: rgb(255, 210, 8);
+}
+
+.info {
+    background-color: rgb(160, 153, 95);
+}
+
+.other {
+    background-color: rgb(160, 95, 140);
+}
+
+.title {
+    background-color: rgb(160, 95, 160);
+}
