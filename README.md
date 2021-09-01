@@ -1,9 +1,10 @@
 # THE — GALLERY 42
 
-HI, MY NAME IS STEPHANO DIEGO. SINCE A CHILD I HAVE BEEN IN LOVE WITH STREET ART, HAVE A HUGE ADMIRATION FOR THE CULTURAL MOVEMENT AND ARTISTS.
-IN 2018 I STARTED MY FIRST COLLECTION AND TODAY IT HAS BECOME A HOBBY.
-THE — GALLERY 42 ® IS MY PROJECT FOR BUYING, SELLING AND EXHIBITING.
-THE PROJECT AIMS TO PROMOTE ACCESS TO ARTISTS' WORK AND ALSO PROVIDE AN DIFFERENT EXPERIENCE FROM TRADITIONAL ART GALLERIES.
+Hi, my name is Stephano Diego. Since a child i have been in love with street art, have a huge admiration for the cultural movement and artists.
+In 2018 i started my first collection and today it has become a hobby.
+
+The — gallery 42 ® is my project for buying, selling and exhibiting.
+The project aims to promote access to artists' work and also provide an different experience from traditional art galleries.
 
 
 ![cover](https://user-images.githubusercontent.com/23237929/131724597-5ef6707f-3332-4608-b46a-5874f880158b.png)
